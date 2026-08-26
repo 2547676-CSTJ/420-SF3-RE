@@ -1,0 +1,42 @@
+# ------------------------------------------------------------
+# .gitignore — projet .NET / Visual Studio 2022
+# ------------------------------------------------------------
+
+# Résultats de compilation
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]uild/
+[Oo]ut/
+
+# Cache local et fichiers utilisateur de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Rider / VS Code (au cas où)
+.idea/
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# Journaux / divers
+*.log
+_ReSharper*/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
