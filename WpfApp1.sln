@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.37531.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{599E0DE9-7C5B-4648-877E-945D540DF58A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours1", "Cours1\Cours1.csproj", "{18DCAF5E-25CE-469B-8754-242AB68C8AEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours2", "Cours2\Cours2.csproj", "{18DCAF5E-25CE-469B-8754-242AB68C8AEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
