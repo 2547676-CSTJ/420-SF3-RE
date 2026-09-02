@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ValidationTextbox
+namespace Placeholder
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -19,20 +19,6 @@ namespace ValidationTextbox
         public MainWindow()
         {
             InitializeComponent();
-            btnValideAge.Click += ValiderAge;
-        }
-
-        private void ValiderAge(object sender, RoutedEventArgs e)
-        {
-            string ageEntre = tBoxAge.Text;
-            if(int.TryParse(ageEntre, out int age))
-            {
-                MessageBox.Show($"Age: {age}");
-            }
-            else
-            {
-                MessageBox.Show("Mauvais Format");
-            }
         }
     }
 }

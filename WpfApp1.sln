@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cours_04", "cours_04\cours_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationTextbox", "ValidationTextbox\ValidationTextbox.csproj", "{D002BCD9-BEF3-4D48-8DE4-EF70F39117E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Placeholder", "Placeholder\Placeholder.csproj", "{5B87F9A8-93D3-4374-82D3-714DAE2B6CAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D002BCD9-BEF3-4D48-8DE4-EF70F39117E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D002BCD9-BEF3-4D48-8DE4-EF70F39117E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D002BCD9-BEF3-4D48-8DE4-EF70F39117E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B87F9A8-93D3-4374-82D3-714DAE2B6CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B87F9A8-93D3-4374-82D3-714DAE2B6CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B87F9A8-93D3-4374-82D3-714DAE2B6CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B87F9A8-93D3-4374-82D3-714DAE2B6CAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
