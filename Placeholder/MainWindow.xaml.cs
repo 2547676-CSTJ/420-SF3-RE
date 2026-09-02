@@ -16,9 +16,33 @@ namespace Placeholder
     /// </summary>
     public partial class MainWindow : Window
     {
+        private const string placeholderMessage = "votre@courriel.com";
+
         public MainWindow()
         {
             InitializeComponent();
+
+            tBoxCourriel.Text = placeholderMessage;
+            tBoxCourriel.Foreground = Brushes.Gray;
+
+            tBoxCourriel.TextChanged += ChangerText;
+            tBoxCourriel.GotFocus += TBoxCourriel_GotFocus;
+
         }
+
+        private void TBoxCourriel_GotFocus(object sender, TextChangedEventArgs e)
+        {
+            TBoxCourriel.Clear();
+        }
+        private void ChagerText(object sender, TextChangedEventArgs e)
+        {
+            if(string.IsNullOrEmpty(tBoxCourriel.Text))
+            {
+                tBoxCourriel.Text = placeholderMessage;
+            }
+        }
+       
+
+
     }
 }

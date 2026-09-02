@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox x:Name="NomTextBox"
+             TextChanged="NomTextBox_TextChanged" />
 
+        <TextBlock x:Name="PlaceholderTextBlock"
+               Text="Entrez votre adresse courriel..."
+               Foreground="Gray"
+               FontStyle="Italic"
+               IsHitTestVisible="False" />
     </Grid>
 </Window>
