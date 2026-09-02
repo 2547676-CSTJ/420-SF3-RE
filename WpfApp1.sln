@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours2", "Cours2\Cours2.csproj", "{18DCAF5E-25CE-469B-8754-242AB68C8AEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worst UI-UX", "Worst UI-UX\Worst UI-UX.csproj", "{382AB512-2476-4C36-B8BC-78A7FCFE5B1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{18DCAF5E-25CE-469B-8754-242AB68C8AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18DCAF5E-25CE-469B-8754-242AB68C8AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18DCAF5E-25CE-469B-8754-242AB68C8AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382AB512-2476-4C36-B8BC-78A7FCFE5B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382AB512-2476-4C36-B8BC-78A7FCFE5B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382AB512-2476-4C36-B8BC-78A7FCFE5B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382AB512-2476-4C36-B8BC-78A7FCFE5B1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
